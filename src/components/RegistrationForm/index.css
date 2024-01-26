@@ -1,0 +1,137 @@
+/* Write your CSS code here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  height: 100vh;
+}
+
+.registration-heading {
+  font-size: 33px;
+  color: #ea580c;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.input-element {
+  height: 40px;
+  border-radius: 5px;
+  border: 1.5px solid #cbd2d9;
+  padding-left: 15px;
+  font-size: 17px;
+  color: #9aa5b1;
+}
+
+.input-blur {
+  background-color: #fbeff0;
+  border-color: #ff0b37;
+}
+
+/* 
+::placeholder {
+  font-size: 17px;
+} */
+
+.label-element {
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.inner-container {
+  width: 80%;
+  height: 50%;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .inner-container {
+    width: 35%;
+    height: 55%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+}
+
+.required {
+  color: #ff0b37;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 33px;
+  background-color: #ea580c;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.submit-res-btn {
+  width: 100%;
+  height: 33px;
+  background-color: #ea580c;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 20px;
+}
+
+.success-img {
+  width: 80px;
+}
+
+.submit-success-text {
+  font-size: 20px;
+  margin-top: 13px;
+  margin-bottom: 15px;
+  color: #475569;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-btn {
+    width: 80px;
+    align-self: center;
+  }
+  .submit-res-btn {
+    width: 180px;
+  }
+}
